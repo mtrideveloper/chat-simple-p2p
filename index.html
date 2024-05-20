@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Simple chat P2P</title>
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+</head>
+
+<body>
+    <p>
+        <input id="peerIdInput" type="text" placeholder="Nhập id người tham gia chat vào đây">
+        <button id="connectButton" type="submit">Kết nối</button>
+    </p>
+    <p>
+        <input id="messageInput" type="text" placeholder="Nhập tin nhắn của bạn vào đây">
+        <button id="sendButton" type="submit">Gửi</button>        
+    </p>
+    <textarea id="messages" readonly></textarea>
+    <script src="./main.js"></script>
+</body>
+
+</html>
